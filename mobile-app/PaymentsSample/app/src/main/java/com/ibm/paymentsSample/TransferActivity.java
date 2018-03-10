@@ -121,11 +121,11 @@ public class TransferActivity extends AppCompatActivity {
                             runOnUiThread(new Runnable() {
                                 @Override
                                 public void run() {
-                                    statusmsg.setText("srukotta - Transfer failed - " + msg);
+                                    statusmsg.setText("Transfer failed - " + msg);
                                     statusmsg.setVisibility(View.VISIBLE);
                                 }
                             });
-                            System.out.println("srukotta - Transfer failed - " + wlFailResponse.toString());
+                            System.out.println("Transfer failed - " + wlFailResponse.toString());
                         }
                     });
                 } catch (Exception e) {

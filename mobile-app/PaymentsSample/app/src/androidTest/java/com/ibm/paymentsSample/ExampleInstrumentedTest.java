@@ -1,4 +1,4 @@
-package sample.ibm.com.paymentsSample;
+package com.ibm.paymentsSample;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("sample.ibm.com.sampleapp", appContext.getPackageName());
+        assertEquals("com.ibm.paymentsSample", appContext.getPackageName());
     }
 }
